@@ -23,10 +23,22 @@ const routes = [
       },{
         path: '/hotel',
         component: () => import('../pages/Hotel')
-      },,{
+      },
+      ,{
         path: '/service',
         component: () => import('../pages/Service')
       },
+    ]
+  },
+  {
+    path: '/',
+    component: () => import('../layouts/PageDetailLayout'),
+    children: [
+      {
+        path: '/place-detail:id',
+        name:'place_detail',
+        component: () => import('../pages/PlaceDetail')
+      }
     ]
   }
 ];

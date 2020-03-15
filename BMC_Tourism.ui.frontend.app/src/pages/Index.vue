@@ -11,7 +11,7 @@
             class="transparent no-padding no-margin"
     >
       <q-carousel-slide name="style" class="q-px-xs">
-        <q-card class="shadow-1" v-ripple clickable @click="$router.push({ name: 'user', params: { userId: '123' } })">
+        <q-card class="shadow-1" v-ripple clickable @click="$router.push({ name: 'place_detail', params: { id: '123' } })">
           <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
             <div class="absolute-bottom">
               <div class="text-h6">Banteay Chhmar Temple</div>

@@ -18,7 +18,7 @@
                 v-model="drawer"
                 show-if-above
                 :width="270"
-                :breakpoint="500"
+                :breakpoint="1000"
         >
             <q-scroll-area class="fit">
                 <q-list padding class="menu-list">
@@ -74,7 +74,7 @@
             <q-tabs
                     v-model="tab"
                     indicator-color="primary"
-                    active-color="black"
+                    active-color="primary"
                     switch-indicator
                     inline-label
                     class="text-grey shadow-2"
@@ -112,7 +112,7 @@
                     {icon: 'list', text: 'List', to: '/'},
                     {icon: 'people', text: 'User', to: '/login'},
                 ],
-                tab:true,
+                tab:'navigation',
                 drawer: false
             }
         },
