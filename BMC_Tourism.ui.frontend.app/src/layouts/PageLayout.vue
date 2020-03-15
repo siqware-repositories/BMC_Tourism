@@ -5,13 +5,6 @@
                 <q-btn flat @click="drawer = !drawer" round dense icon="sort" />
                 <q-toolbar-title>Travel Guide</q-toolbar-title>
             </q-toolbar>
-            <q-toolbar>
-                <q-input clearable v-model="search" bg-color="white" rounded outlined :dense="true" class="full-width" placeholder="Search....">
-                    <template v-slot:prepend>
-                        <q-icon name="search" />
-                    </template>
-                </q-input>
-            </q-toolbar>
         </q-header>
 
         <q-drawer

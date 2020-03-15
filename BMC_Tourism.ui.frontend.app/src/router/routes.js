@@ -12,15 +12,24 @@ const routes = [
   },
   {
     path: '/',
-    component: () => import('../layouts/LoginLayout'),
+    component: () => import('../layouts/PageLayout'),
     children: [
       {
-        path: '/login',
-        component: () => import('../pages/Login')
-      }
+        path: '/place',
+        component: () => import('../pages/Place')
+      },{
+        path: '/restaurant',
+        component: () => import('../pages/Restaurant')
+      },{
+        path: '/hotel',
+        component: () => import('../pages/Hotel')
+      },,{
+        path: '/service',
+        component: () => import('../pages/Service')
+      },
     ]
   }
-]
+];
 
 // Always leave this as last one
 if (process.env.MODE !== 'ssr') {
