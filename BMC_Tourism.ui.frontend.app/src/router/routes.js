@@ -39,19 +39,17 @@ const routes = [
         name:'place_detail',
         component: () => import('../pages/PlaceDetail')
       },{
-<<<<<<< HEAD
         path: '/hotel-detail:id',
         name:'hotel_detail',
         component: () => import('../pages/HotelDetail')
-      },{
+      }, {
         path: '/restaurant-detail:id',
-        name:'restaurant_detail',
-        component: () => import('../pages/RestaurantDetail')
-=======
+        name: 'restaurant_detail',
+        component: () => import('../pages/RestaurantDetail'),
+      },{
         path: '/place-guide',
         name:'place_guide',
         component: () => import('../pages/PlaceGuide')
->>>>>>> fdf5c587adeb9a485ab5e34252b1df9c8fff4395
       },
     ]
   }

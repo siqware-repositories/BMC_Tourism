@@ -63,14 +63,10 @@
             </q-scroll-area>
         </q-drawer>
 
-        <q-footer class="bg-white" elevated reveal>
+        <q-footer elevated reveal>
             <q-tabs
                     v-model="tab"
-                    indicator-color="primary"
-                    active-color="primary"
                     switch-indicator
-                    inline-label
-                    class="text-grey shadow-2"
                     align="center"
             >
                 <q-route-tab to="/place" name="place" icon="place"/>
