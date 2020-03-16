@@ -38,7 +38,11 @@ const routes = [
         path: '/place-detail:id',
         name:'place_detail',
         component: () => import('../pages/PlaceDetail')
-      }
+      },{
+        path: '/place-guide',
+        name:'place_guide',
+        component: () => import('../pages/PlaceGuide')
+      },
     ]
   }
 ];
