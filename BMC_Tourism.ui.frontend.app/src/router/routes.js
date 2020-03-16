@@ -38,7 +38,15 @@ const routes = [
         path: '/place-detail:id',
         name:'place_detail',
         component: () => import('../pages/PlaceDetail')
-      }
+      },{
+        path: '/hotel-detail:id',
+        name:'hotel_detail',
+        component: () => import('../pages/HotelDetail')
+      },{
+        path: '/restaurant-detail:id',
+        name:'restaurant_detail',
+        component: () => import('../pages/RestaurantDetail')
+      },
     ]
   }
 ];
