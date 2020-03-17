@@ -42,7 +42,7 @@
       <div class="text-h6 text-primary q-mt-sm">Todo</div>
       <div class="row q-col-gutter-xs">
         <div class="col-6">
-          <q-btn icon="place" class="full-width" label="Travel Guide" stack color="primary" />
+          <q-btn icon="place" @click="$router.push({ name: 'hotel_guide'})" class="full-width" label="Travel Guide" stack color="primary" />
         </div>
         <div class="col-6">
           <q-btn icon="hotel" class="full-width" label="Hotel" stack color="positive" />

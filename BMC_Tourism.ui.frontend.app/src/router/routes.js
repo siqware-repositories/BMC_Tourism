@@ -50,6 +50,14 @@ const routes = [
         path: '/place-guide',
         name:'place_guide',
         component: () => import('../pages/PlaceGuide')
+      },{
+        path: '/hotel-guide',
+        name:'hotel_guide',
+        component: () => import('../pages/HotelGuide')
+      },{
+        path: '/restaurant-guide',
+        name:'restaurant_guide',
+        component: () => import('../pages/RestaurantGuide')
       },
     ]
   }
